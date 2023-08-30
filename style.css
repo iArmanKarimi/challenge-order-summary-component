@@ -1,0 +1,22 @@
+:root {
+	--color-primary-pale-blue: hsl(225, 100%, 94%);
+	--color-primary-bright-blue: hsl(245, 75%, 52%);
+	--color-neutral-very-pale-blue: hsl(225, 100%, 98%);
+	--color-neutral-desaturated-blue: hsl(224, 23%, 55%);
+	--color-neutral-dark-blue: hsl(223, 47%, 23%);
+	--font-weight-regular: 500;
+	--font-weight-bold: 700;
+	--font-weight-black: 900;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: var(--font-weight-regular);
+	font-family: "Red Hat Display", sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+	/* desktop */
+}
