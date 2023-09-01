@@ -7,7 +7,7 @@
 	--font-weight-regular: 500;
 	--font-weight-bold: 700;
 	--font-weight-black: 900;
-}	
+}
 
 html {
 	margin: 0;
@@ -41,19 +41,41 @@ h1 {
 }
 
 .card > .body {
-	padding: 2rem;
+	padding: 5px 2rem;
 }
 
 .card article {
 	text-align: center;
 }
 .card article h1 {
-	margin-top: 0;
+	margin-block: 1rem;
 	margin-inline: auto;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 .card article p {
 	font-size: 1rem;
+	color: var(--color-neutral-desaturated-blue);
+}
+
+.btn {
+	width: 100%;
+	padding: 1rem;
+	margin-inline: auto;
+	color: white;
+	border: none;
+	border-radius: 0.75rem;
+	font-size: 1rem;
+	font-weight: var(--font-weight-bold);
+	background-color: var(--color-primary-bright-blue);
+	box-shadow: 0 10px 25px 0 hsl(245deg 75% 52% / 33%);
+}
+.btn-transparent {
+	padding: 1rem;
+	padding-block: 1.5rem;
+	text-align: center;
+	background-color: transparent;
+	font-size: 1rem;
+	font-weight: var(--font-weight-bold);
 	color: var(--color-neutral-desaturated-blue);
 }
 
