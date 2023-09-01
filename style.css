@@ -7,11 +7,14 @@
 	--font-weight-regular: 500;
 	--font-weight-bold: 700;
 	--font-weight-black: 900;
-}
+}	
 
 html {
 	margin: 0;
 	padding: 0;
+	display: flex;
+	align-items: center;
+	height: 100vh;
 	font-size: 16px;
 	font-weight: var(--font-weight-regular);
 	font-family: "Red Hat Display", sans-serif;
