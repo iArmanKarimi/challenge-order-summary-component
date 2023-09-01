@@ -24,6 +24,10 @@ img {
 	width: 100%;
 	border-radius: inherit;
 }
+h1 {
+	font-weight: var(--font-weight-black);
+}
+
 }
 
 @media only screen and (min-width: 600px) {
