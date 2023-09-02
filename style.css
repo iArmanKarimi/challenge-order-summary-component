@@ -7,6 +7,7 @@
 	--font-weight-regular: 500;
 	--font-weight-bold: 700;
 	--font-weight-black: 900;
+	--body-padding: 1.5rem;
 }
 
 html,
@@ -33,7 +34,9 @@ h1 {
 	font-weight: var(--font-weight-black);
 }
 
+/* Card */
 .card {
+	max-width: 350px;
 	border-radius: 1rem;
 	background-color: white;
 	box-shadow: 0 5px 15px 0px hsla(245, 75%, 52%, 20%);
@@ -54,13 +57,14 @@ h1 {
 .card article h1 {
 	margin-block: 1rem;
 	margin-inline: auto;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 }
 .card article p {
 	font-size: 1rem;
 	color: var(--color-neutral-desaturated-blue);
 }
 
+/* Buttons */
 .btn {
 	width: 100%;
 	padding: 1rem;
