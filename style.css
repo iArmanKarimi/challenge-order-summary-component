@@ -30,7 +30,7 @@ h1 {
 }
 
 .card {
-	border-radius: 1.5rem;
+	border-radius: 1rem;
 	background-color: white;
 	box-shadow: 0 5px 15px 0px hsla(245, 75%, 52%, 20%);
 }
