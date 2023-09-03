@@ -65,6 +65,31 @@ h1 {
 	color: var(--color-neutral-desaturated-blue);
 }
 
+/* Music */
+.card .music {
+	padding: 1rem;
+	margin-block: 1.5rem;
+	display: flex;
+	align-items: center;
+	border-radius: 0.8rem;
+	background-color: var(--color-neutral-very-pale-blue);
+}
+.card .music img {
+	width: 3rem;
+	height: 3rem;
+}
+.card .music .plan {
+	margin-inline: 1rem;
+}
+.card .music b {
+}
+.card .music p {
+	margin: 0;
+}
+.card .music a {
+	margin-left: auto;
+}
+
 /* Buttons */
 .btn {
 	width: 100%;
