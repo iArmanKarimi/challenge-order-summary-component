@@ -4,6 +4,7 @@
 	--color-neutral-very-pale-blue: hsl(225, 100%, 98%);
 	--color-neutral-desaturated-blue: hsl(224, 23%, 55%);
 	--color-neutral-dark-blue: hsl(223, 47%, 23%);
+	--color-hover: hsl(245, 75%, 65%);
 	--font-weight-regular: 500;
 	--font-weight-bold: 700;
 	--font-weight-black: 900;
@@ -85,9 +86,12 @@ h1 {
 }
 .card .music p {
 	margin: 0;
+	color: var(--color-neutral-desaturated-blue);
 }
 .card .music a {
 	margin-left: auto;
+	color: var(--color-primary-bright-blue);
+	color: var(--color-hover);
 }
 
 /* Buttons */
