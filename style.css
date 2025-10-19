@@ -91,6 +91,7 @@ h1 {
 }
 .card .music p {
 	margin: 0;
+	margin-top: 0.25rem;
 	color: var(--color-neutral-desaturated-blue);
 }
 .card .music a {
@@ -98,6 +99,8 @@ h1 {
 	color: var(--color-primary-bright-blue);
 	font-weight: var(--font-weight-bold);
 }
+.card .music a:hover {
+	cursor: pointer;
 	color: var(--color-hover);
 	text-decoration: none;
 }
