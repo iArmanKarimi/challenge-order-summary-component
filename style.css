@@ -64,6 +64,7 @@ h1 {
 	margin-block: 1rem;
 	margin-inline: auto;
 	font-size: 1.4rem;
+	font-size: clamp(1.2rem, 2vw, 1.4rem);
 }
 
 .card article p {
@@ -74,6 +75,7 @@ h1 {
 
 /* Music */
 .card .music {
+	gap: 1rem;
 	padding: 1rem;
 	margin-block: 1.5rem;
 	display: flex;
@@ -86,10 +88,6 @@ h1 {
 .card .music img {
 	width: 3rem;
 	height: 3rem;
-}
-
-.card .music .plan {
-	margin-inline: 1rem;
 }
 
 .card .music b {
@@ -153,5 +151,9 @@ h1 {
 	body {
 		background: var(--color-primary-pale-blue) url("./images/pattern-background-desktop.svg") no-repeat top center;
 		background-size: cover;
+	}
+
+	.card {
+		max-width: 450px;
 	}
 }
